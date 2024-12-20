@@ -1,0 +1,648 @@
+.logo {
+    justify-content: left;
+  }
+  
+  .instagram-section {
+      display: flex; 
+      align-items: center; 
+      justify-content: flex-start; 
+      gap: 10px;
+    }
+    
+    .icon {
+      width: 24px; 
+      height: auto;
+    }
+    
+    .instagram-link {
+      font-size: 16px; 
+      color: #333; 
+      text-decoration: none; 
+    }
+    
+    .instagram-link:hover {
+      color: #e1306c; 
+    }
+    
+    .mail-section {
+      display: flex; 
+      align-items: center; 
+      justify-content: flex-start; 
+      gap: 10px;
+      }
+  
+  .phone-section {
+      display: flex; 
+      align-items: center; 
+      justify-content: flex-start; 
+      gap: 10px;
+      }
+  
+  .contact-link {
+      font-size: 16px;
+      color: #333;
+      text-decoration: none;
+      }
+  
+    header ul {
+      list-style-type: none;
+      display: flex;
+      gap: 24px;
+  }
+  
+    .cta-button {
+      padding: 10px 10px; 
+      background-color: #ffe0ef; /* Color de fondo personalizado */
+      font-family: Alegreya;
+      color: #000000; /* Color del texto */
+      border: 1px solid #ffe0ef;
+      border-radius: 6px;
+      cursor: pointer;
+      text-align: center; /* Centra el texto */
+      display: inline-block; /* Hace que el botón se comporte como un bloque en línea */
+      font-size: 20px;
+    }
+  
+    .cta-button:hover {
+      background-color: #e8c8d7; /* Color de fondo al pasar el cursor */
+      border: 1px solid #e8c8d7;
+    }
+  
+    .cta-button:focus {
+      background-color: #dba3bd; /* Color de fondo al hacer foco */
+      border: 1px solid #dba3bd;
+    }
+  
+    .buttons {
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+  
+  header {
+      display: flex;
+      justify-content: center; /* Centra los elementos dentro del header */
+      align-items: center;     /* Centra verticalmente */
+      width: 100%;
+      font-family: Alegreya;
+      padding: 10px 0; /* Ajusta el padding según lo necesites */
+      position: relative;
+    }
+    
+    header .nav-list {
+      list-style-type: none;
+      display: flex;
+      gap: 24px;
+      margin: 0;
+      padding: 0;
+      font-family: Alegreya;
+      font-size: 20px;
+    }
+    
+    header .nav-list li {
+      display: flex;
+      align-items: center;
+      font-family: Alegreya;
+    }
+  
+    header .logo {
+      width: 100px;  /* Ajusta el tamaño del logo */
+      height: auto;
+    }
+  
+    body {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    
+    h1 {
+      font-family: Anek Odia;
+      font-weight: bold;
+      font-size: 32px;
+    }
+  
+    .body-large {
+      font-family: Anek Odia;
+      font-weight: regular;
+      font-size: 20px;
+    }
+  
+    h2 {
+      font-family: Anek Odia;
+      font-weight: semibold;
+      font-size: 24px;
+    }
+  
+    h3 {
+      font-family: Anek Odia;
+      font-weight: semibold;
+      font-size: 20px;
+    }
+  
+    .nuestros-servicios {
+      display: flex;
+      list-style-type: none;
+      gap: 50px;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+  
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .image {
+      width: 391.3px;
+      height: auto;
+    }
+  
+    .image:hover {
+      color: #bb9baa80;
+    }
+  
+    .link-small {
+      font-family: Anek Odia;
+      font-weight: lighter;
+      font-size: 14px;
+      font-style: unset;
+      text-align: right;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  
+    .características {
+      display: flex;
+      list-style-type: none;
+      gap: 50px;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .service-avaiable {
+      display: flex;
+      list-style-type: none;
+      gap: 30px;
+    }
+  
+    .content-service {
+      gap: 10px;
+    }
+  
+    small {
+      font-family: Anek Odia;
+      font-weight: lighter;
+      font-size: 12px;
+      text-align: left;
+    }
+  
+    .long-description {
+          display: -webkit-box;        /* Necesario para usar line-clamp */
+          -webkit-line-clamp: 2;       /* Número de líneas visibles */
+          -webkit-box-orient: vertical; /* Orientación del contenedor */
+          overflow: hidden;            /* Oculta el contenido adicional */
+          text-overflow: ellipsis;     /* Agrega puntos suspensivos */ 
+    }
+  
+  .description {
+      display: -webkit-box;       
+      -webkit-line-clamp: 3;    
+      -webkit-box-orient: vertical; 
+      overflow: hidden;          
+      text-overflow: ellipsis; 
+  }
+  
+    .img-container {
+      width: 50px;
+      height: 50px;
+      overflow: hidden; /* Opcional: para recortar el contenido si es necesario */
+      border-radius: 999px;
+      border: 1px solid #bb9baa;
+    }
+    
+    .img-container img {
+      width: 100%; /* Asegura que se ajuste al ancho del contenedor */
+      height: 100%; /* Asegura que se ajuste al alto del contenedor */
+      object-fit: cover; /* Ajusta la imagen para cubrir completamente el espacio sin distorsión */
+    }
+  
+    .user {
+      display: flex;
+      flex-direction: column; /* Por defecto, organiza los elementos en columna */
+      align-items: flex-start; /* Alinea los elementos al inicio del contenedor */
+      gap: 8px; /* Espacio entre los bloques */
+      max-width: 300px; /* Ajusta según sea necesario */
+    }
+    
+    .user-info {
+      display: flex; /* Organiza los elementos en fila */
+      font-family: Anek Odia;
+      gap: 14px; /* Espacio entre la imagen y el texto */
+      align-items: center; /* Centra verticalmente los elementos */
+      justify-content: center;
+    }
+    
+    .event {
+      display: flex;
+      font-family: Anek Odia;
+      flex-direction: column; /* Coloca el nombre y el evento uno debajo del otro */
+      gap: 4px; /* Espacio entre el nombre y el evento */
+    }
+    
+    .name-user {
+      line-height: 1;
+      font-family: Anek Odia;
+      font-weight: semibold; /* Destaca el nombre del usuario */
+    }
+    
+    .event {
+      font-size: 0.9em;
+      color: gray;
+      font-family: Anek Odia;
+    }
+    
+    .calification {
+      display: flex; /* Organiza las estrellas en fila */
+      gap: 2px; /* Espacio entre las estrellas */
+      margin-top: -5px;
+    }
+  
+    .comment {
+      padding: 20px 0px;
+      font-weight: lighter;
+      font-size: 14px;
+      text-align: left;
+      font-family: Anek Odia;
+      line-height: 1.3;
+    }
+  
+    .container {
+      padding-top: 20px;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: #fff;
+      border: 1px dashed #bb9baa;
+      border-radius: 6px;
+      flex-wrap: wrap;
+      display: flex;
+    }
+  
+   .promotions {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: fit-content;
+   }
+  
+   .img-promotion {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+   }
+  
+  highlated {
+    font-size: 50px;
+    justify-content: center;
+    font-family: Abhaya Libre;
+    font-weight: bolder;
+    align-items: center;
+   }
+  
+   .secondary-button {
+    padding: 10px 10px; 
+    background-color: #fff; 
+    font-family: Alegreya;
+    color: #e877ac;
+    border: 1px solid #e877ac;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+   }
+  
+  .secondary-button:hover {
+    background-color: #FAEBF2;
+  }
+  
+  .secondary-button:focus {
+    background-color: #F1DFEA;
+  }
+  
+  .img-promotion {
+    width: 391.3px;
+    height: auto;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffe0ef;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+  }
+  
+  .contact-section {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    gap: 10px;
+    padding: 0 20px;
+    }
+    
+  .center-section {
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .footer-logo {
+    width: 200px;
+    height: auto;
+  }
+  
+  .right-content {
+    flex: 1;
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    color: #cb6293;
+    text-decoration: underline;
+  }
+  
+  a:focus {
+    color: #913e64;
+    text-decoration: underline;
+  }
+  
+  .img-professional {
+  justify-content: left;
+  width: 186.5px;
+  height: auto;
+  }
+  
+  .name {
+    font-size: 20px;
+    font-family: Anek Odia;
+    font-weight: bold;
+  }
+  
+  .charge {
+    font-size: 12px;
+    font-family: Anek Odia;
+  }
+  
+  .desription {
+    font-size: 14px;
+    font-family: Anek Odia;
+  }
+  
+  .professional-data {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding: 4.5px 24px;
+    justify-content: center;
+  }
+  
+  .name+charge {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  
+  .professional {
+    display: flex;
+    max-width: 590px;
+  }
+  
+  .team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .service-icn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Anek Odia;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .service-container-active {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   max-width: 576px;
+   max-height: 350px;
+   background-color: #fff3f9;
+   padding: 24px 24px;
+   overflow: hidden;
+  }
+  
+  .service-description {
+    font-family: Anek Odia;
+    font-size: 15px;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 576px;
+    max-height: 350px;
+    padding: 24px 24px;
+    overflow: hidden;
+   }
+  
+   .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    overflow: hidden;
+   }
+  
+   .contact-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: Anek Odia;
+    font-weight: regular;
+    font-size: 20px;
+   }
+  
+  .input-set {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-family: Anek Odia;
+    font-weight: regular;
+    font-size: 12px;
+  }
+  
+   .form-input input {
+    width: 275px;
+    height: 24px;
+    border-radius: 6px;
+    padding: 12px 12px;
+    border: 1px solid #e8c8d7;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .form-area textarea {
+    width: 275px;
+    min-height: 97px;
+    border-radius: 6px;
+    padding: 12px 12px;
+    border: 1px solid #e8c8d7;
+    font-size: 12px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+   }
+  
+   .container-group {
+    display: flex;
+   }
+  
+   .testimonios {
+    display: flex;
+    gap: 20px;
+   }
+  
+   .body-large-bold {
+    font-family: Anek Odia;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .send-confirmation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .confirmation-container {
+    display: flex;
+    flex-direction: row;
+    font-family: Anek Odia;
+    font-size: 20px;
+  }
+  
+  .confirmation-container-2 {
+    display: flex;
+    flex-direction: row;
+    font-family: Anek Odia;
+    font-size: 20px;
+  }
+  
+  .introduction {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-container {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    max-width: 322px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #bb9baa;
+    border-radius: 5px;
+  }
+  
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+  }
+  
+  .carousel-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Botones del carrusel */
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #bb9baa80;
+    color: white;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 10;
+    border-radius: 50%;
+    user-select: none;
+  }
+  
+  .carousel-button:hover {
+    background-color: #775c6990;
+  }
+  
+  .carousel-button.prev {
+    left: 10px;
+  }
+  
+  .carousel-button.next {
+    right: 10px;
+  }
+  
+  .text-and-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }

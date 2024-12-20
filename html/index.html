@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="initial-scale=1, width=device-width">
+  	<link rel="stylesheet"  href="/Users/lauramccall/Desktop/eventisse/css/styles.css" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anek Odia:wght@400;600;700&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" />
+  	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abhaya Libre ExtraBold:wght@400&display=swap" />
+
+</head>
+
+<body>
+	
+	<header class="header">
+
+		<nav class="header-menu">
+            <ul class="nav-list">
+              <li><img class="logo" src="/Users/lauramccall/Desktop/eventisse/img/eventisse-logo-header.svg" alt="Logo"></li>
+              <li><a href="/Users/lauramccall/Desktop/eventisse/html/index.html">Inicio</a></li>
+              <li><a href="/Users/lauramccall/Desktop/eventisse/html/about-us.html">Sobre nosotros</a></li>
+              <li><a href="/Users/lauramccall/Desktop/eventisse/html/inspiration.html">Inspiración</a></li>
+              <li><a href="/Users/lauramccall/Desktop/eventisse/html/services.html">Servicios</a></li>
+              <li><a href="/Users/lauramccall/Desktop/eventisse/html/contact-us.html">Contacta con nosotros</a></li>
+              <li><button class="cta-button">Inicia sesión</button></li>
+            </ul>
+          </nav>
+
+	  </header>
+	  
+	 <h1>Planifica y gestiona tus eventos fácilmente</h1>
+
+	 <div class="introduction">
+
+		<div class="text-and-button">
+
+			<div class="body-large">
+				La planificación de eventos nunca ha sido tan fácil. En Eventisse, transformamos tus ideas en experiencias inolvidables. Nuestra plataforma te permite gestionar cada detalle de tu evento, desde la creación del concepto hasta la ejecución final.
+			 </div>
+		
+			<div>
+				<button class="cta-button">Regístrate</button>
+			</div>
+
+		</div>
+		
+		<div class="carousel-container">
+			<div class="carousel">
+				<div class="carousel-item">
+					<img src="/Users/lauramccall/Desktop/eventisse/img/Pexels Photo by Agung Pandit Wiguna.jpg" alt="Imagen 1">
+				</div>
+				<div class="carousel-item">
+					<img src="/Users/lauramccall/Desktop/eventisse/img/Pexels Photo by Asad Photo Maldives.jpg" alt="Imagen 2">
+				</div>
+				<div class="carousel-item">
+					<img src="/Users/lauramccall/Desktop/eventisse/img/Pexels Photo by Craig Adderley.jpg" alt="Imagen 3">
+				</div>
+				<div class="carousel-item">
+					<img src="/Users/lauramccall/Desktop/eventisse/img/Pexels Photo by Eduardo Barrientos.jpg" alt="Imagen 4">
+				</div>
+			</div>
+			<button class="carousel-button prev" onclick="moveSlide(-1)">&#10094;</button>
+			<button class="carousel-button next" onclick="moveSlide(1)">&#10095;</button>
+		</div>
+	
+		<script>
+			const carousel = document.querySelector('.carousel');
+			let currentIndex = 0;
+	
+			function moveSlide(direction) {
+				const items = document.querySelectorAll('.carousel-item');
+				const totalItems = items.length;
+				currentIndex = (currentIndex + direction + totalItems) % totalItems;
+				carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+			}
+		</script>
+		
+	</div>
+		
+    <h2>Nuestros servicios</h2>
+
+	<div class="nuestros-servicios">
+
+		<div class="service-icn">
+			<div class="icn">
+				<img src="/Users/lauramccall/Desktop/eventisse/img/carbon_gui-management.svg" alt="Gestión de invitados">
+			</div>
+			<div class="name-service">
+				Gestión de invitados
+			</div>
+		</div>
+		<div class="service-icn">
+			<div class="icn">
+				<img src="/Users/lauramccall/Desktop/eventisse/img/ep_service.svg" alt="Comunicación con proveedores">
+			</div>
+			<div class="name-service">
+				Comunicación con proveedores
+			</div>
+		</div>
+		<div class="service-icn">
+			<div class="icn">
+				<img src="/Users/lauramccall/Desktop/eventisse/img/mynaui_send.svg" alt="Envío de invitaciones">
+			</div>
+			<div class="name-service">
+				Envío de invitaciones
+			</div>
+		</div>
+		<div class="service-icn">
+			<div class="icn">
+				<img src="/Users/lauramccall/Desktop/eventisse/img/fluent-mdl2_issue-tracking.svg" alt="Seguimiento de asistencia">
+			</div>
+			<div class="name-service">
+				Seguimiento de asistencia
+			</div>
+		</div>
+	</div>	
+            					
+    <h2>Inspiración</h2>        						
+
+	<div class="body-large">
+		Contamos con una amplia experiencia en la planificación de todo tipo de eventos. Aquí tienes algunos ejemplos:
+	</div>
+          				
+    <div class="images">
+
+		<img class="image" alt="Foto celebración 1" src="/Users/lauramccall/Desktop/eventisse/img/Frame 6.jpg">      									
+		<img class="image" alt="Foto celebración 2" src="/Users/lauramccall/Desktop/eventisse/img/Frame 7.jpg">
+		<img class="image" alt="Foto celebración 3" src="/Users/lauramccall/Desktop/eventisse/img/Frame 8.jpg">
+	
+	</div>      
+	
+	<div class="link-small">
+		<a href="/Users/lauramccall/Desktop/eventisse/html/inspiration.html">Ver galería</a>
+	</div>
+              						
+    <h2>Características de Eventisse</h2>   
+
+	<div class="características">
+			
+			<div class="service-icn">
+				<div class="icn">
+					<img src="/Users/lauramccall/Desktop/eventisse/img/emojione-monotone_hourglass-with-flowing-sand.svg" alt="Ahorro de tiempo">
+				</div>
+				<div class="name-service">
+					Ahorro de tiempo
+				</div>
+			</div>
+	
+			<div class="service-icn">
+				<div class="icn">
+					<img src="/Users/lauramccall/Desktop/eventisse/img/iconoir_dollar.svg" alt="Adaptación a tu presupuesto">
+				</div>
+				<div class="name-service">
+					Adaptación a tu presupuesto
+				</div>
+			</div>
+	
+			<div class="service-icn">
+				<div class="icn">
+					<img src="/Users/lauramccall/Desktop/eventisse/img/carbon_area-custom.svg" alt="Asesoramiento personalizado">
+				</div>
+				<div class="name-service">
+					Asesoramiento personalizado
+				</div>
+			</div>
+	
+			<div class="service-icn">
+				<div class="icn">
+					<img src="/Users/lauramccall/Desktop/eventisse/img/ep_service.svg" alt="Soporte técnico continuo">
+				</div>
+				<div class="name-service">
+					Soporte técnico continuo
+				</div>
+			</div>
+		
+		</div>
+
+	<h2>Servicios disponibles</h2>
+
+	<div class="service-avaiable">
+
+		<div class="service">
+			<img class="image" src="/Users/lauramccall/Desktop/eventisse/img/service1.jpg" alt="Servicio 1: Pack preestablecido completo">
+			<div class="content-service">
+				<h3>Pack preestablecido completo</h3>
+				<p class="long-description">Este pack incluye plantillas, herramientas digitales, recursos visuales, software de organización, documentación, señalética, materiales promocionales y soluciones de seguimiento, todo diseñado para planificar y ejecutar eventos de manera eficiente.</p>
+				<small>Desde 509,70€</small>
+		</div>
+	</div>
+
+		<div class="service">
+			<img class="image" src="/Users/lauramccall/Desktop/eventisse/img/Frame 17.jpg" alt="Servicio 2: Reserva de locales">
+			<div class="content-service">
+				<h3>Reserva de locales</h3>
+				<p class="long-description">Este pack incluye la reserva de locales para la celebración de cumpleaños, gestión de reservas con proveedores y de invitados.</p>
+				<small>Desde 99€</small>
+			</div>
+		</div>
+
+			<div class="service">
+				<img class="image" src="/Users/lauramccall/Desktop/eventisse/img/Frame 6service.jpg" alt="Servicio 3: Degustación para eventos">
+				<div class="content-service">
+					<h3>Degustación para eventos</h3>
+					<p class="long-description">Este pack incluye la comunicación y reserva de proveedores para el catering del evento.</p>
+					<small>Desde 65,35€</small>
+				</div>
+			</div>
+
+	</div>
+
+	<div class="link-small">
+		<a>Ver más</a>
+	</div>
+
+	<h2>Testimonios de clientes</h2>
+
+	<div class="testimonios">
+
+		<div class="container">
+
+			<div class="comments">
+		
+				<div class="user">
+		
+					<div class="user-info">
+		
+					  <div class="img-container">
+						<img class="img" src="/Users/lauramccall/Desktop/eventisse/img/user-1.jpg" alt="Foto de perfil del usuario">
+					  </div>
+		
+					 <div class="data">
+		
+						<div class="name-user">
+							María Sánchez Ros
+						  </div>
+			
+						 <div class="event">
+							Boda
+						 </div>
+		
+						 <div class="calification">
+							<img alt="Icono estrella completa" src="/Users/lauramccall/Desktop/eventisse/img/icon-star.svg">
+							<img alt="Icono estrella completa" src="/Users/lauramccall/Desktop/eventisse/img/icon-star.svg">
+							<img alt="Icono estrella completa" src="/Users/lauramccall/Desktop/eventisse/img/icon-star.svg">
+							<img alt="Icono estrella completa" src="/Users/lauramccall/Desktop/eventisse/img/icon-star.svg">
+							<img alt="Icono estrella completa" src="/Users/lauramccall/Desktop/eventisse/img/icon-star.svg">
+						</div>
+		
+					 </div>
+					 
+					</div>
+		
+				</div>
+				  
+				<div class="comment">
+					Desde que decidimos organizar nuestra boda, queríamos que todo fuera especial pero sin agobios... y ahí fue donde Eventisse se convirtió en nuestro salvavidas. Nos ayudaron a planificar cada detalle, desde el cronograma hasta el presupuesto, de una manera súper sencilla y organizada. Lo que más nos encantó fue la sección de invitaciones: diseñamos unas digitales hermosas y las enviamos a todos los invitados en minutos. Además, la lista de confirmación automática nos ahorró un montón de tiempo.
+				</div>	
+		
+			</div>
+			
+		</div>
+
+		<div class="container">
+		
+		<div class="user">
+
+			<div class="user-info">
+
+			  <div class="img-container">
+				<img class="img" src="/Users/lauramccall/Desktop/eventisse/img/user-2.jpg" alt="Foto de perfil del usuario">
+			  </div>
+
+			 <div class="data">
+
+				<div class="name-user">
+					Carlos Méndez
+				  </div>
+	
+				 <div class="event">
+					Evento corporativo
+				 </div>
+
+				 <div class="calification">
+					<img alt="Icono estrella completa" src="/Users/lauramccall/Desktop/eventisse/img/icon-star.svg">
+					<img alt="Icono estrella completa" src="/Users/lauramccall/Desktop/eventisse/img/icon-star.svg">
+					<img alt="Icono estrella completa" src="/Users/lauramccall/Desktop/eventisse/img/icon-star.svg">
+					<img alt="Icono estrella completa" src="/Users/lauramccall/Desktop/eventisse/img/icon-star.svg">
+					<img alt="Icono estrella vacía" src="/Users/lauramccall/Desktop/eventisse/img/icn-star.svg">
+				</div>
+
+			 </div>
+			 
+			</div>
+
+		</div>
+		  
+		<div class="comment">
+			Usé Eventisse para organizar una conferencia anual de liderazgo y, en general, la experiencia fue muy positiva. La plataforma nos permitió centralizar toda la información, desde la gestión de asistentes hasta la planificación del programa. Las plantillas para cronogramas y presupuestos fueron un gran acierto y nos ayudaron a mantenernos organizados y dentro de los plazos. La función de invitaciones digitales fue muy práctica, pero notamos que algunos asistentes tuvieron problemas para confirmar su asistencia desde dispositivos móviles.
+		</div>	
+
+	   </div>
+
+	</div>
+
+</div>
+
+	<h2>Ofertas especiales</h2>
+	
+    <div class="promotions">
+
+		<img class="img-promotion" alt="Oferta 1: Rebajas primavera, hasta 50% de descuento" src="/Users/lauramccall/Desktop/eventisse/img/oferta-1.jpg">
+		<img class="img-promotion" alt="Oferta 2: 5€ de descuento en tu primera reserva" src="/Users/lauramccall/Desktop/eventisse/img/oferta-2.jpg">
+		<img class="img-promotion" alt="Oferta 3: 35% de descuento para nuevos usuarios" src="/Users/lauramccall/Desktop/eventisse/img/oferta-3.jpg">
+
+	</div>       		
+	
+<highlated>Si necesitas organizar un evento, no lo dudes</highlated>
+
+<div></div><p></p><p></p>
+
+<div class="buttons">
+
+	<div class="cta-button">
+		Contacta con un asesor
+	</div>
+
+	<div class="secondary-button">
+		Regístrate
+	</div>
+
+</div>
+
+</body>
+
+<footer>
+
+        <div class="footer-content">
+
+			<div class="left-content">
+								
+				<div class="contact-section">
+									
+					<img class="icon" alt="Instagram icon" src="/Users/lauramccall/Desktop/eventisse/img/icon-ig.svg">
+					<a href="http://instagram.com/eventisse.events/" class="contact-link">@eventisse.events</a>
+								
+				</div>
+
+				<div class="contact-section">
+									
+					<img class="icon" alt="Email icon" src="/Users/lauramccall/Desktop/eventisse/img/ic_outline-email.svg">
+					<a href="mailto:contact.example@eventisse.es" class="contact-link">contact.example@eventisse.es</a>
+								
+				</div>
+								
+				<div class="contact-section">
+									
+					<img class="icon" alt="Phone icon" src="/Users/lauramccall/Desktop/eventisse/img/solar_phone-outline.svg">
+					<a href="tel:666666666" class="contact-link">666 66 66 66</a>
+
+				</div>
+				
+			</div>
+
+			<div class="center-content">
+
+				<img class="footer-logo" alt="Logo" src="/Users/lauramccall/Desktop/eventisse/img/eventisse-logo.png">
+
+			</div>
+
+			<div class="right-content">
+
+				<a href="#CAMBIAR POR P.PRIVACIDAD">Privacidad</a>
+				<a href="#CAMBIAR POR P. COOKIES">Política de cookies</a>
+				<a href="/Users/lauramccall/Desktop/eventisse/html/contact-us.html">Contacta con nosotros</a>
+				<a href="#CAMBIAR POR P. NEWSLETTER">Suscríbete a nuestra newsletter</a>
+
+			</div>
+
+		</div>		
+
+	</footer>
+	
+</html>
