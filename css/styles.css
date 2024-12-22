@@ -80,13 +80,20 @@
     }
   
   header {
-      display: flex;
-      justify-content: center; /* Centra los elementos dentro del header */
-      align-items: center;     /* Centra verticalmente */
       width: 100%;
       font-family: Alegreya;
       padding: 10px 0; /* Ajusta el padding según lo necesites */
       position: relative;
+    }
+
+    .header-menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header-logo {
+      margin-right: auto;
     }
     
     header .nav-list {
@@ -99,7 +106,7 @@
       font-size: 20px;
     }
     
-    header .nav-list li {
+    header .nav-list div {
       display: flex;
       align-items: center;
       font-family: Alegreya;
