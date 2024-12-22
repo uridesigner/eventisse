@@ -122,7 +122,7 @@
       height: auto;
     }
   
-    body {
+    .main-content {
       padding-left: 24px;
       padding-right: 24px;
     }

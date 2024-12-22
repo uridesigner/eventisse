@@ -15,86 +15,90 @@
 
 <body>
 	
-	<header class="header">
+    <div class="main-content">
 
-		<nav class="header-menu">
+        <header class="header">
 
-			<div class="header-logo">
+            <nav class="header-menu">
 
-				<a href="index.html"><img class="logo" src="img/eventisse-logo-header.svg" alt="Logo"></a>
-				
-			</div>
+                <div class="header-logo">
 
-            <div class="nav-list">
+                    <a href="index.html"><img class="logo" src="img/eventisse-logo-header.svg" alt="Logo"></a>
+                    
+                </div>
 
-              <div><a href="index.html">Inicio</a></div>
-              <div><a href="about-us.html">Sobre nosotros</a></div>
-              <div><a href="inspiration.html">Inspiración</a></div>
-              <div><a href="services.html">Servicios</a></div>
-              <div><a class="active" href="contact-us.html">Contacta con nosotros</a></div>
-              <div><button class="cta-button">Inicia sesión</button></div>
+                <div class="nav-list">
 
-			</div>
-			
-          </nav>
+                <div><a href="index.html">Inicio</a></div>
+                <div><a href="about-us.html">Sobre nosotros</a></div>
+                <div><a href="inspiration.html">Inspiración</a></div>
+                <div><a href="services.html">Servicios</a></div>
+                <div><a class="active" href="contact-us.html">Contacta con nosotros</a></div>
+                <div><button class="cta-button">Inicia sesión</button></div>
 
-	  </header>
+                </div>
+                
+            </nav>
 
-      <h1>Contacta con nosotros</h1>
+        </header>
 
-      <div class="container-group">
+        <h1>Contacta con nosotros</h1>
 
-        <div class="contact-container">
+        <div class="container-group">
 
-            <div class="contact-description">
-                Por favor, completa este formulario con tus datos de contacto y detalla tu mensaje para que podamos atenderte de la mejor manera posible. Nos aseguraremos de responderte a la mayor brevedad. Si lo prefieres, también puedes comunicarte con nosotros directamente a través de nuestro correo electrónico o llamándonos por teléfono. Estaremos encantados de ayudarte con cualquier consulta o solicitud relacionada con tu evento.
-            </div>
+            <div class="contact-container">
 
-            <div class="contact-section">
-                                    
-                <img class="icon" alt="Email icon" src="img/ic_outline-email.svg">
-                <a href="mailto:contact.example@eventisse.es" class="contact-link">contact.example@eventisse.es</a>
-                            
-            </div>
-                            
-            <div class="contact-section">
+                <div class="contact-description">
+                    Por favor, completa este formulario con tus datos de contacto y detalla tu mensaje para que podamos atenderte de la mejor manera posible. Nos aseguraremos de responderte a la mayor brevedad. Si lo prefieres, también puedes comunicarte con nosotros directamente a través de nuestro correo electrónico o llamándonos por teléfono. Estaremos encantados de ayudarte con cualquier consulta o solicitud relacionada con tu evento.
+                </div>
+
+                <div class="contact-section">
+                                        
+                    <img class="icon" alt="Email icon" src="img/ic_outline-email.svg">
+                    <a href="mailto:contact.example@eventisse.es" class="contact-link">contact.example@eventisse.es</a>
                                 
-                <img class="icon" alt="Phone icon" src="img/solar_phone-outline.svg">
-                <a href="tel:666666666" class="contact-link">666 66 66 66</a>
+                </div>
+                                
+                <div class="contact-section">
+                                    
+                    <img class="icon" alt="Phone icon" src="img/solar_phone-outline.svg">
+                    <a href="tel:666666666" class="contact-link">666 66 66 66</a>
+
+                </div>
 
             </div>
 
-        </div>
+        <div class="input-set">
 
-      <div class="input-set">
+            <div class="form-input">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" placeholder="Escribe aquí tu nombre completo" required>
+            </div>
+        
+            <div class="form-input">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="alguien@ejemplo.com" required>
+            </div>
+        
+            <div class="form-input">
+            <label for="phone">Teléfono</label>
+            <input type="tel" id="phone" name="phone" placeholder="666 66 66 66">
+            </div>
+        
+            <div class="form-area">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" placeholder="Escribe aquí tu mensaje con todos los detalles necesarios para que podamos asesorarte de la mejor forma posible." required></textarea>
+            </div>
 
-        <div class="form-input">
-            <label for="name">Nombre</label>
-            <input type="text" id="name" name="name" placeholder="Escribe aquí tu nombre completo" required>
-        </div>
-      
-        <div class="form-input">
-        <label for="email">Correo Electrónico</label>
-        <input type="email" id="email" name="email" placeholder="alguien@ejemplo.com" required>
-        </div>
-    
-        <div class="form-input">
-        <label for="phone">Teléfono</label>
-        <input type="tel" id="phone" name="phone" placeholder="666 66 66 66">
-        </div>
-    
-        <div class="form-area">
-        <label for="message">Mensaje</label>
-        <textarea id="message" name="message" rows="5" placeholder="Escribe aquí tu mensaje con todos los detalles necesarios para que podamos asesorarte de la mejor forma posible." required></textarea>
-        </div>
+            <a href="contact-us-confirmation.html" class="cta-button">Enviar mensaje</a>
 
-        <a href="contact-us-messa-send.html" class="cta-button">Enviar mensaje</a>
-
-      </div>
+        </div>
 
     </div>
 
-      </div>
+      </div> 
+        
+    </div>
 
       <footer>
 
@@ -144,4 +148,6 @@
     
     </footer>
     
-    </html>
+    </body>
+
+</html>
