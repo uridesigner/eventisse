@@ -525,10 +525,11 @@
     font-family: Anek Odia;
     font-weight: regular;
     font-size: 12px;
+    width: 605px;
   }
   
    .form-input input {
-    width: 275px;
+    width: 605px;
     height: 24px;
     border-radius: 6px;
     padding: 12px 12px;
@@ -536,10 +537,13 @@
     font-size: 12px;
     display: flex;
     flex-direction: column;
+    font-family: Anek Odia;
+    font-weight: regular;
+    font-size: 12px;
    }
   
    .form-area textarea {
-    width: 275px;
+    width: 605px;
     min-height: 97px;
     border-radius: 6px;
     padding: 12px 12px;
@@ -548,6 +552,9 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    font-family: Anek Odia;
+    font-weight: regular;
+    font-size: 12px;
    }
   
    .container-group {
