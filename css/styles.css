@@ -668,5 +668,25 @@
   }
 
   * {
-    box-sizing: border-box; /* Asegura que los márgenes y padding no aumenten el tamaño del elemento */
+    box-sizing: border-box; /* Elimina el scroll horizontal ya que impide que los márgenes y padding no aumenten el tamaño del elemento */
+  }
+
+  .button {
+    padding: 10px 10px; 
+    background-color: #ffe0ef; /* Color de fondo personalizado */
+    font-family: Alegreya;
+    color: #000000; /* Color del texto */
+    border: 1px solid #ffe0ef;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center; /* Centra el texto */
+    display: inline-block; /* Hace que el botón se comporte como un bloque en línea */
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .button:hover {
+    text-decoration: none;
+    color: black;
+    background-color: #e8c8d7;
+    border: 1px solid #e8c8d7;
   }
