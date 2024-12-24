@@ -43,7 +43,7 @@
       color: #333;
       text-decoration: none;
       }
-  
+
     header ul {
       list-style-type: none;
       display: flex;
@@ -169,6 +169,8 @@
     }
   
     .image {
+      flex: 1 1 calc(33.33% - 1rem); /* Ocupa un tercio del ancho menos el espaciado */
+      max-width: 100%; 
       width: 391.3px;
       height: auto;
     }
@@ -309,13 +311,14 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    max-width: fit-content;
    }
   
    .img-promotion {
     max-width: 100%;
     height: auto;
     padding-bottom: 40px;
+    flex: 1 1 calc(33.33% - 1rem);/* Ocupa un tercio del ancho menos el espaciado */
+    width: 391.3px;
    }
   
   highlated {
