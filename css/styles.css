@@ -76,7 +76,8 @@
     .buttons {
       align-items: center;
       justify-content: center;
-      gap: 30px;
+      gap: 20px;
+      display: flex;
     }
   
   header {
