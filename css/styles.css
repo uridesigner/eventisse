@@ -199,6 +199,12 @@
       justify-content: space-around;
     }
   
+    .service{
+      display: flex;
+      flex-direction: column;
+      width: 33.3%;
+    }
+
     .service-avaiable {
       display: flex;
       list-style-type: none;
